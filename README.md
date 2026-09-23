@@ -74,9 +74,6 @@ config.py            Paramètres (modèles, taille de chunk, seuil de similarit�
 - Si aucun chunk récupéré ne dépasse le seuil de similarité (`MIN_SIMILARITY` dans `config.py`), l'assistant répond explicitement qu'il ne sait pas, **sans appeler le LLM** — évite qu'un LLM comble les trous par hallucination.
 - Les sources et leur score de similarité sont affichés dans l'UI pour audit.
 
-## Ce que j'ai appris
-
-*(à compléter au fil du projet : stratégie de chunking, éval de la récupération, réduction des hallucinations, comparaison local vs API)*
 
 ## Prochaines étapes
 
